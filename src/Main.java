@@ -11,7 +11,7 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        User user1 = new User();
+        /*User user1 = new User();
         user1.setId(1L);
         user1.setCreatedDate(LocalDateTime.of(2000, 11,21,10,10));
         user1.setUpdatedDate(LocalDateTime.of(2000, 11,21,10,10));
@@ -130,7 +130,9 @@ public class Main {
         PostController postController = new PostController();
         postController.saveAll(List.of(post1, post2, post3, post4, post5));
 
-        postController.getMainContent(1L);
+        postController.getMainContent(1L);*/
+
+        System.out.println("hello world");
 
 
 
